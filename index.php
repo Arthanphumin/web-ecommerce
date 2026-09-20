@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>แฟ้มสะสมงาน Web Programming - สุทธิภูมินทร์</title>
+    <title>แฟ้มสะสมงาน Web Programming - sutthiphumin</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-100 min-h-screen p-8 flex items-center justify-center">
     <div class="max-w-xl w-full bg-white rounded-2xl shadow-lg p-6">
         <h1 class="text-2xl font-bold text-slate-800 mb-1">แฟ้มสะสมงาน Web Programming</h1>
-        <p class="text-slate-500 text-sm mb-6">นายสุทธิภูมินทร์ อาสนะ (67010918007)</p>
+        <p class="text-slate-500 text-sm mb-6">นายสุทธิภูมินท์ อาจหาร (67010918007)</p>
         
         <div class="grid grid-cols-2 gap-3">
             <a href="a/" class="p-4 bg-slate-50 hover:bg-blue-50 border border-slate-200 hover:border-blue-300 rounded-xl text-center font-medium text-slate-700 hover:text-blue-600 transition">Workshop A</a>
