@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สุทธิภูมินท์ อาจหาร</title>
+    
+    <style>
+        h1 {
+            color: white;            
+            background-color: rgb(255, 0, 0);  
+            padding: 10px;            
+        }
+    </style>
+</head>
+<body>
+    <h1>สุทธิภูมินท์ อาจหาร(บิ๊กบอส)</h1>
+
+    <table method="post" action=""> 
+    <tr>
+<<form method="post" action="z.php"enctype="multipart/from-deta">
+    ชื่อ-สกุล <input type="text" name="fullname" required> <br>
+    อีเมล <input type="email" name="email"> <br>
+    อายุ <input type="number" name="age" min="18" max="60" required> ปี <br>
+    วันที่ <input type="date" name="date"> <br>
+    สี <input type="color" name="color"> <br>
+    ที่อยู่ <br>
+    <textarea name="address" cols="40" rows="4"></textarea> <br><br>
+
+    อาหารที่ชอบ <br>
+<input type="checkbox" name="food[]" value="ข้าวมันไก่"> ข้าวมันไก่
+<input type="checkbox" name="food[]" value="ข้าวขาหมู"checked> ข้าวขาหมู
+<input type="checkbox" name="food[]" value="ก๋วยเตี๋ยว"> ก๋วยเตี๋ยว
+<input type="checkbox" name="food[]" value="ส้มตำ"> ส้มตำ
+<input type="checkbox" name="food[]" value="ไก่ย่าง"> ไก่ย่าง
+<input type="checkbox" name="food[]" value="ลาบหมู"checked> ลาบหมู
+<input type="checkbox" name="food[]" value="ลาบไก่"> ลาบไก่ <br> <br>
+
+สาขาวิชา
+<select name="majar">
+    <option value="การบัญชี">การบัญชี</option>
+    <option value="การตลาด">การตลาด</option>
+    <option value="การจัดการ">การจัดการ</option>
+    <option value="บริหารการเงิน">บริหารการเงิน</option>
+    <option value="DBIS">DBIS</option>
+    <option value="Bc">BC</option>
+</select> <br><br>
+
+รูปภาพ
+<input type="=file"name="picture"> <br>
+
+ <!--<input type="submit" name="Submit" value="ลงทะเบียน">-->
+    <button type="submit" name="Submit">ลงทะเบียน</button>
+    <button type="reset">Reset</button>
+    <button type="button" onclick="window.print();">พิมพ์หน้านี้</button>
+    <button type="button" onmouseover="alert('สวัสดี');">Alert</button>
+    <button type="button" onclick="window.location='https://www.lazada.co.th/';">Lazada</button>
+
+</form>
+ 
+ <form>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+/* style.css */
+
+/* 1. สไตล์แถบชื่อสีแดงแบบ Netflix */
+.netflix-bar {
+    background-color: #E50914; 
+    color: white;
+    box-shadow: 0 4px 12px rgba(229, 9, 20, 0.4); 
+}
+.netflix-title {
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+/* 2. สไตล์จัดการรูปภาพให้ใหญ่ขึ้นและเท่ากัน */
+.img-cover {
+    height: 350px; 
+    object-fit: cover; 
+    width: 100%;
+}
+
+/* 3. สไตล์การ์ดแบบ 3D นูนๆ */
+.card-3d {
+    border-radius: 12px;
+    border: none;
+    background: #fff;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.08); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    cursor: pointer; 
+    overflow: hidden; 
+}
+.card-3d:hover {
+    transform: translateY(-12px) scale(1.01); 
+    box-shadow: 0 20px 35px rgba(0,0,0,0.25); 
+    z-index: 10;
+}
